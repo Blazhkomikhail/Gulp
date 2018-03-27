@@ -1,0 +1,12 @@
+@color: #ccc;
+
+body {
+	background: @color;
+	a{
+		color: lighten(@color, 20%);
+	}
+}
+
+.block1, .block2 {
+	color: @color;
+}

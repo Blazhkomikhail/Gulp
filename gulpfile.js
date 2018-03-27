@@ -6,3 +6,7 @@ gulp.task('less', function() {
       .pipe (less())
       .pipe (gulp.dest('./src/'));
 });
+
+gulp.task('less:watch', function() {
+	gulp.watch('./src/**/*.less', ['less']);
+});

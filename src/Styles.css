@@ -1,0 +1,10 @@
+body {
+  background: #ccc;
+}
+body a {
+  color: #ffffff;
+}
+.block1,
+.block2 {
+  color: #ccc;
+}
